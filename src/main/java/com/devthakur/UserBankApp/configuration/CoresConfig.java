@@ -16,7 +16,7 @@ public class CoresConfig {
                 registry.addMapping("/**")  // applies to all endpoints
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://bank-user-frontend.vercel.app/"
+                                "https://bank-user-frontend.vercel.app"
                         ) // allow all origins
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*");
